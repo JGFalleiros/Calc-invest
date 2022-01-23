@@ -1,0 +1,56 @@
+<!–CÓDIGO FEITO POR JOÃO FALLEIROS–>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de investimentos</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="title">Calcule seus investimentos</div>
+            <form action="#" id="form">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="detais">Valor inicial:</span>
+                        <input type="number" id="inicial" name="inicial" placeholder="Digite o valor inicial..."
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="detais">Taxa de juros (a.m):</span>
+                        <input type="number" id="juros" name="juros" placeholder="Digite a taxa de juros..." required>
+                    </div>
+                    <div class="input-box">
+                        <span class="detais">Período:</span>
+                        <input type="number" id="periodo" name="periodo" placeholder="Digite o período..." required>
+                    </div>
+                    <div class="input-box">
+                        <span class="detais">Aportes (mensal):</span>
+                        <input type="number" id="aporte" name="aporte" placeholder="Digite o valor dos aportes..."
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <div class="button">
+                            <input type="button" id="calcular" name="calcular" value="Calcular">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <span class="detais">Valor ao final do período:</span>
+                        <input type="text" id="result" name="result" placeholder="" readonly>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+    </html>
